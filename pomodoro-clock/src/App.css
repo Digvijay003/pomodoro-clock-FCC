@@ -10,6 +10,7 @@ body{
   align-items: center;
   background: #1e555c;
   height: 100vh;
+  width: 100vw;
 }
 
 
@@ -20,6 +21,7 @@ body{
   align-items: center;
   gap: 10px;
   color: white;
+  border: 2px solid red;
 
   width: 50vw;
   height: 50vh;
@@ -75,4 +77,24 @@ body{
   background-color: #1e555c;
   border-radius: 2px;
   cursor: pointer;
+}
+
+@media (max-width:1000px){
+  .clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .time-setter{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+  .title{
+    text-align: center;
+    width: 100%;
+  }
 }

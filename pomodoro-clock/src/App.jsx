@@ -118,7 +118,7 @@ function App() {
 
   return (
     <div className='clock'>
-      <div>
+      <div className='title'>
       <h1>25 + 5 Clock</h1>
 
       </div>
