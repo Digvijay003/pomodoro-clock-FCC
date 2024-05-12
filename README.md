@@ -1,7 +1,7 @@
 # pomodoro-clock-FCC
 25+5 clock for freeCodeCamp Project
 
-[You can see live here](https://cool-liger-bd2d1c.netlify.app/)
+[Check the application live on this link](https://cool-liger-bd2d1c.netlify.app/)
 
 # About
 
